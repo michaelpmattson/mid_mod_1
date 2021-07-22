@@ -40,7 +40,7 @@ RSpec.describe Passenger do
   end
 
   context '#drive' do
-    it '' do
+    it 'changes driver to true' do
       charlie = Passenger.new({"name" => "Charlie", "age" => 18})
 
       expect(charlie.driver).to be(false)
