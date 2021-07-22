@@ -1,6 +1,3 @@
-## xiteration 2
-# Use TDD to create a `Vehicle` class that responds to the following interaction pattern:
-
 require './lib/vehicle'
 require './lib/passenger'
 
